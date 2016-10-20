@@ -5,6 +5,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Highcharts Chart Processing</name>
   <description>Processes data and creates charts</description>
+  
+  <build>
+	<finalName>Spring Examples</finalName>
+	<resources>
+		<resource>
+			<directory>src/main/resources</directory>
+		</resource>
+	</resources>
+</build>
+	
+	
   <dependencies>
   	<dependency>
   		<groupId>com.googlecode.wicked-charts</groupId>

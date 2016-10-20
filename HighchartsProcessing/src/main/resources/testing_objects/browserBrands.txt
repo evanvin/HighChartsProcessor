@@ -1,9 +1,6 @@
-Chrome,22.2
 Internet Explorer,56.33
-Chrome,1.83
-Firefox,5.83
-Firefox,2.55
+Chrome,24.03
+Firefox,10.38
 Safari,4.77
 Opera,0.91
 Proprietary or Undectectable,0.2
-Firefox,2.00

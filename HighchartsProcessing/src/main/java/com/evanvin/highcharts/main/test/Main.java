@@ -1,6 +1,9 @@
 package com.evanvin.highcharts.main.test;
 
-import java.net.URL;
+import java.util.List;
+
+import com.evanvin.highcharts.dao.LineChartSeries;
+import com.evanvin.highcharts.service.ProcessTextFiles;
 
 public class Main {
 
@@ -11,8 +14,13 @@ public class Main {
 	
 	
 	public Main(){
-		URL location = Main.class.getProtectionDomain().getCodeSource().getLocation();
-        System.out.println(location.getFile());
+		ProcessTextFiles ptf = new ProcessTextFiles();
+		
+		
+		
+		//TEST FOR LINE CHART
+		List<LineChartSeries> lcs = ptf.processLineChartTestObject();
+		ptf.printObjectList(lcs);
 		
 		
 	}
