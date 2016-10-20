@@ -22,8 +22,9 @@ public class LineChartTestParams {
 		 HashMap<String,Object> params = new HashMap<String, Object>();
 		 params.put("title:text", "Monthly Average Temperature");
 		 params.put("title:x", -20);
-		 
-		// params.put("xAxis:cetagories", Arrays.asList(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
+		 params.put("subtitle:text", "Source: WorldClimate.com");
+		 params.put("subtitle:x", -20);
+		 params.put("xAxis:categories", Arrays.asList(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun","Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
 		 Options o = null;
 		 
 		try {

@@ -1,10 +1,12 @@
 package com.evanvin.highcharts.main.test;
 
+import java.util.Arrays;
 import java.util.List;
 
 import com.evanvin.highcharts.dao.LineChartSeries;
 import com.evanvin.highcharts.service.ProcessTextFiles;
 import com.evanvin.highcharts.test.LineChartTestParams;
+import com.googlecode.wickedcharts.highcharts.options.Axis;
 
 public class Main {
 
@@ -16,6 +18,8 @@ public class Main {
 	
 	public Main(){
 		ProcessTextFiles ptf = new ProcessTextFiles();
+		
+		
 		
 		
 		
