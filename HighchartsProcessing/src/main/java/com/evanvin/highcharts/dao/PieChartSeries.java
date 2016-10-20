@@ -72,5 +72,6 @@ public class PieChartSeries {
 		return "PieChartSeries [name=" + name + ", y=" + y + ", sliced="
 				+ sliced + ", selected=" + selected + "]";
 	}
+	
 		
 }
