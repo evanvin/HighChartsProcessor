@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.evanvin.highcharts.dao.LineChartSeries;
 import com.evanvin.highcharts.service.ProcessTextFiles;
+import com.evanvin.highcharts.test.LineChartTestParams;
 
 public class Main {
 
@@ -20,7 +21,7 @@ public class Main {
 		
 		//TEST FOR LINE CHART
 		List<LineChartSeries> lcs = ptf.processLineChartTestObject();
-		ptf.printObjectList(lcs);
+		new LineChartTestParams().LineChartTestParams1(lcs);
 		
 		
 	}
